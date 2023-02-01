@@ -1,0 +1,239 @@
+
+
+/**
+ * Class applicant
+ */
+public class applicant {
+
+  //
+  // Fields
+  //
+
+  private void name;
+  private String fathername;
+  private date dob;
+  private String address;
+  private void permanent_address;
+  private void email_id;
+  private void phoneNum;
+  private void panNo;
+  private void applicationNo;
+  private void username;
+  private void password;
+  
+  //
+  // Constructors
+  //
+  public applicant () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @param newVar the new value of name
+   */
+  public void setName (void newVar) {
+    name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  public void getName () {
+    return name;
+  }
+
+  /**
+   * Set the value of fathername
+   * @param newVar the new value of fathername
+   */
+  public void setFathername (String newVar) {
+    fathername = newVar;
+  }
+
+  /**
+   * Get the value of fathername
+   * @return the value of fathername
+   */
+  public String getFathername () {
+    return fathername;
+  }
+
+  /**
+   * Set the value of dob
+   * @param newVar the new value of dob
+   */
+  public void setDob (date newVar) {
+    dob = newVar;
+  }
+
+  /**
+   * Get the value of dob
+   * @return the value of dob
+   */
+  public date getDob () {
+    return dob;
+  }
+
+  /**
+   * Set the value of address
+   * @param newVar the new value of address
+   */
+  public void setAddress (String newVar) {
+    address = newVar;
+  }
+
+  /**
+   * Get the value of address
+   * @return the value of address
+   */
+  public String getAddress () {
+    return address;
+  }
+
+  /**
+   * Set the value of permanent_address
+   * @param newVar the new value of permanent_address
+   */
+  public void setPermanent_address (void newVar) {
+    permanent_address = newVar;
+  }
+
+  /**
+   * Get the value of permanent_address
+   * @return the value of permanent_address
+   */
+  public void getPermanent_address () {
+    return permanent_address;
+  }
+
+  /**
+   * Set the value of email_id
+   * @param newVar the new value of email_id
+   */
+  public void setEmail_id (void newVar) {
+    email_id = newVar;
+  }
+
+  /**
+   * Get the value of email_id
+   * @return the value of email_id
+   */
+  public void getEmail_id () {
+    return email_id;
+  }
+
+  /**
+   * Set the value of phoneNum
+   * @param newVar the new value of phoneNum
+   */
+  public void setPhoneNum (void newVar) {
+    phoneNum = newVar;
+  }
+
+  /**
+   * Get the value of phoneNum
+   * @return the value of phoneNum
+   */
+  public void getPhoneNum () {
+    return phoneNum;
+  }
+
+  /**
+   * Set the value of panNo
+   * @param newVar the new value of panNo
+   */
+  public void setPanNo (void newVar) {
+    panNo = newVar;
+  }
+
+  /**
+   * Get the value of panNo
+   * @return the value of panNo
+   */
+  public void getPanNo () {
+    return panNo;
+  }
+
+  /**
+   * Set the value of applicationNo
+   * @param newVar the new value of applicationNo
+   */
+  public void setApplicationNo (void newVar) {
+    applicationNo = newVar;
+  }
+
+  /**
+   * Get the value of applicationNo
+   * @return the value of applicationNo
+   */
+  public void getApplicationNo () {
+    return applicationNo;
+  }
+
+  /**
+   * Set the value of username
+   * @param newVar the new value of username
+   */
+  public void setUsername (void newVar) {
+    username = newVar;
+  }
+
+  /**
+   * Get the value of username
+   * @return the value of username
+   */
+  public void getUsername () {
+    return username;
+  }
+
+  /**
+   * Set the value of password
+   * @param newVar the new value of password
+   */
+  public void setPassword (void newVar) {
+    password = newVar;
+  }
+
+  /**
+   * Get the value of password
+   * @return the value of password
+   */
+  public void getPassword () {
+    return password;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void login()
+  {
+  }
+
+
+  /**
+   */
+  public void submitDetails()
+  {
+  }
+
+
+  /**
+   */
+  public void checkstatus()
+  {
+  }
+
+
+}
