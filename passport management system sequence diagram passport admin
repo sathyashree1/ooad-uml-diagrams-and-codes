@@ -1,0 +1,31 @@
+
+
+/**
+ * Class passport_managemment_system
+ */
+public class passport_managemment_system {
+
+  //
+  // Fields
+  //
+
+  
+  //
+  // Constructors
+  //
+  public passport_managemment_system () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  //
+  // Other methods
+  //
+
+}
