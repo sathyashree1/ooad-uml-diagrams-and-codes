@@ -1,0 +1,106 @@
+
+
+/**
+ * Class membership_status
+ */
+public class membership_status {
+
+  //
+  // Fields
+  //
+
+  private () status;
+  private () last_renewed;
+  private () Book_holding;
+  private () next_renewal;
+  
+  //
+  // Constructors
+  //
+  public membership_status () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of status
+   * @param newVar the new value of status
+   */
+  public void setStatus (() newVar) {
+    status = newVar;
+  }
+
+  /**
+   * Get the value of status
+   * @return the value of status
+   */
+  public () getStatus () {
+    return status;
+  }
+
+  /**
+   * Set the value of last_renewed
+   * @param newVar the new value of last_renewed
+   */
+  public void setLast_renewed (() newVar) {
+    last_renewed = newVar;
+  }
+
+  /**
+   * Get the value of last_renewed
+   * @return the value of last_renewed
+   */
+  public () getLast_renewed () {
+    return last_renewed;
+  }
+
+  /**
+   * Set the value of Book_holding
+   * @param newVar the new value of Book_holding
+   */
+  public void setBook_holding (() newVar) {
+    Book_holding = newVar;
+  }
+
+  /**
+   * Get the value of Book_holding
+   * @return the value of Book_holding
+   */
+  public () getBook_holding () {
+    return Book_holding;
+  }
+
+  /**
+   * Set the value of next_renewal
+   * @param newVar the new value of next_renewal
+   */
+  public void setNext_renewal (() newVar) {
+    next_renewal = newVar;
+  }
+
+  /**
+   * Get the value of next_renewal
+   * @return the value of next_renewal
+   */
+  public () getNext_renewal () {
+    return next_renewal;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void return_status()
+  {
+  }
+
+
+}
