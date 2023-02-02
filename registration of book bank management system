@@ -1,0 +1,191 @@
+
+
+/**
+ * Class registration
+ */
+public class registration {
+
+  //
+  // Fields
+  //
+
+  private String name;
+  private String age;
+  private String address;
+  private String college;
+  private date year_of_study;
+  private integer contactNo;
+  private number memberID;
+  private String username;
+  private String password;
+  
+  //
+  // Constructors
+  //
+  public registration () { };
+  
+  //
+  // Methods
+  //
+
+
+  //
+  // Accessor methods
+  //
+
+  /**
+   * Set the value of name
+   * @param newVar the new value of name
+   */
+  public void setName (String newVar) {
+    name = newVar;
+  }
+
+  /**
+   * Get the value of name
+   * @return the value of name
+   */
+  public String getName () {
+    return name;
+  }
+
+  /**
+   * Set the value of age
+   * @param newVar the new value of age
+   */
+  public void setAge (String newVar) {
+    age = newVar;
+  }
+
+  /**
+   * Get the value of age
+   * @return the value of age
+   */
+  public String getAge () {
+    return age;
+  }
+
+  /**
+   * Set the value of address
+   * @param newVar the new value of address
+   */
+  public void setAddress (String newVar) {
+    address = newVar;
+  }
+
+  /**
+   * Get the value of address
+   * @return the value of address
+   */
+  public String getAddress () {
+    return address;
+  }
+
+  /**
+   * Set the value of college
+   * @param newVar the new value of college
+   */
+  public void setCollege (String newVar) {
+    college = newVar;
+  }
+
+  /**
+   * Get the value of college
+   * @return the value of college
+   */
+  public String getCollege () {
+    return college;
+  }
+
+  /**
+   * Set the value of year_of_study
+   * @param newVar the new value of year_of_study
+   */
+  public void setYear_of_study (date newVar) {
+    year_of_study = newVar;
+  }
+
+  /**
+   * Get the value of year_of_study
+   * @return the value of year_of_study
+   */
+  public date getYear_of_study () {
+    return year_of_study;
+  }
+
+  /**
+   * Set the value of contactNo
+   * @param newVar the new value of contactNo
+   */
+  public void setContactNo (integer newVar) {
+    contactNo = newVar;
+  }
+
+  /**
+   * Get the value of contactNo
+   * @return the value of contactNo
+   */
+  public integer getContactNo () {
+    return contactNo;
+  }
+
+  /**
+   * Set the value of memberID
+   * @param newVar the new value of memberID
+   */
+  public void setMemberID (number newVar) {
+    memberID = newVar;
+  }
+
+  /**
+   * Get the value of memberID
+   * @return the value of memberID
+   */
+  public number getMemberID () {
+    return memberID;
+  }
+
+  /**
+   * Set the value of username
+   * @param newVar the new value of username
+   */
+  public void setUsername (String newVar) {
+    username = newVar;
+  }
+
+  /**
+   * Get the value of username
+   * @return the value of username
+   */
+  public String getUsername () {
+    return username;
+  }
+
+  /**
+   * Set the value of password
+   * @param newVar the new value of password
+   */
+  public void setPassword (String newVar) {
+    password = newVar;
+  }
+
+  /**
+   * Get the value of password
+   * @return the value of password
+   */
+  public String getPassword () {
+    return password;
+  }
+
+  //
+  // Other methods
+  //
+
+  /**
+   */
+  public void register()
+  {
+  }
+
+
+}
